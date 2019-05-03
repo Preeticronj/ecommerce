@@ -1,0 +1,12 @@
+.phones{
+     background-color:white;
+     border:2px solid grey ;
+     margin:5px;
+     animation: grow;
+     float: left;
+     width: 25%;
+     height:25%;
+     padding: 5px;
+     margin-bottom:60px;
+     padding-bottom:60px;
+}

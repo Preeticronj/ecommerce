@@ -1,0 +1,121 @@
+[
+    {
+      "name": "Apple iPhone 7 Plus 32 GB (Apple Türkiye Garantili)",
+      "price":"$4,241.50",
+      "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+      "Brand":"Apple",
+      "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+      "Camera":"8mp (3264x2448)",
+      "CPU":"1.3GHz Apple A6",
+      "Memory":"16GB, 32GB and RAM 1 GB",
+      "Display":"4.0 326 pixel density",
+      "Battery":"1480 mAh"
+},
+{
+    "name":"Huawei Mate 20 Lite 64 GB (Huawei Türkiye Garantili)",
+    "price":"$1,823.66",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Huawei",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+},
+{
+    "name":"Huawei P20 Lite 64 GB (Huawei Türkiye Garantili)",
+    "price":"$7,429.47",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Huawei",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+},
+{
+    "name": " Meizu 16TH 64 GB (Meizu Türkiye Garantili)" , 
+    "price":"$5,664.27",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Meizu",
+    "Size":" 124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+
+},
+{
+   "name" :"Meizu X8 64 GB (Meizu Türkiye Garantili)",
+   "price":"$5,664.27",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Meizu",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+
+},
+{
+    "name":"Samsung Galaxy A7 2018 64 GB (Samsung Türkiye Garantili)",
+    "price":"$4,108.08",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Samsung",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+
+},
+{
+    "name": "Samsung Galaxy J6 Plus 32 GB (Samsung Türkiye Garantili)" ,
+    "price":"$4,260.95",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!" ,
+    "Brand":"Samsung",
+    "Size":" 124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+
+},
+{
+    "name":"Vestel Venus Z20 (Vestel Garantili)" ,
+    "price":"$4,730.96",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Vestel",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+},
+{
+    "name":"Xiaomi Mi 8 Lite 128 GB (İthalatçı Garantili)",
+    "price":"$5,565.74",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Xiaomi",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+},
+{
+    "name":"Xiaomi Mi 8 Lite 64 GB (İthalatçı Garantili)",
+    "price":"$5,830.07",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Xiaomi",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+
+
+},
+{
+    "name":"Apple iPhone 7 32 GB (Apple Türkiye Garantili)",
+    "price":"$1,525.62",
+    "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+    "Brand":"Apple",
+    "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+    "Camera":"8mp (3264x2448)",
+    "CPU":"1.3GHz Apple A6"
+},
+{
+  "name":"Samsung Galaxy S10 Plus 128 GB (Samsung Türkiye Garantili)",
+  "price":" $3,429.35",
+  "Description":"Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Numquam Aspernatur!",
+  "Brand":"Samsung ",
+  "Size":"124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
+  "Camera":"8mp (3264x2448)",
+  "CPU":"1.3GHz Apple A6"
+
+}
+
+]

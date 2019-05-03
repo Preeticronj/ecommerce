@@ -1,0 +1,11 @@
+.price {
+    background-color: white;
+    width: 250px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 30px;    
+  }
+  .source1{
+      background-color: lightgrey;
+      width:100%;
+  }

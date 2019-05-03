@@ -1,0 +1,13 @@
+.source {
+    background-color: white;
+    width: 150px;
+    border: 1px solid lightgrey;
+    padding: 50px;
+    margin: 30px;
+    
+  }
+  .brand{
+      background-color: lightgrey;
+      width:100%;
+
+  }

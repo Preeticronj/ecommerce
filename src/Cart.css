@@ -1,0 +1,30 @@
+.cart{
+    display:inline;
+    width:400px;
+    padding: 5px;  
+}
+.image1{
+    float:left;
+    margin-left: 150px;
+}
+.shipping{
+    background:black;
+    color:white;
+    margin-left:150px;
+    margin-top:70px;
+    width:900px;
+    height: 60px;
+}
+.button{
+    display:flex;
+}
+.p1{
+    background:grey;
+    color:black;
+    width:900px;
+    height: 60px;
+    margin-bottom: 70px;
+    margin-left:150px;
+    
+
+}

@@ -1,0 +1,23 @@
+
+.outer-div{
+    display:flex;
+}
+.left-div{
+    width:30%;
+    height:60%;
+}
+.body1{
+    border:1px solid black;
+    }
+.right-div{
+    width:70%;
+    height:70%
+}
+.body3{
+    height:10%;
+    display:flex;
+    border:lpx light gray
+}
+.body4{
+   display:inline
+}
