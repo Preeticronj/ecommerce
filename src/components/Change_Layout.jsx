@@ -1,8 +1,11 @@
 import React from "react";
 import "./layout.css";
 export class Change_Layout extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state={
+     flag:true
+    }
   }
 
   render() {
@@ -10,12 +13,13 @@ export class Change_Layout extends React.Component {
       <div>
         <div className="layout">
           <p>change layout</p>
-          <div className="i1">
+          <div className={this.props.valid ? "i1 active" : "i1"} onClick={()=>{this.props.func(this.state.flag)}}>
             <div className="i2" />
             <div className="i2" />
             <div className="i2" />
           </div>
-          <div className="i3">
+      
+          <div className={!this.props.valid ? "i3 active" : "i3"} onClick={()=>{this.props.func(!this.state.flag)}}>
             <div className="i4" />
             <div className="i4" />
             <div className="i4" />
@@ -26,4 +30,5 @@ export class Change_Layout extends React.Component {
     );
   }
 }
+
 export default Change_Layout;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Phone.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+import { add_to_Cart } from "../../Action/index1";
+import { connect } from "react-redux";
 
 class Phone extends React.Component {
   constructor(props) {
@@ -14,7 +16,7 @@ class Phone extends React.Component {
         <div>
           <img alt="phone " width="80%" height="90%" src={this.props.image} />
         </div>
-        <div>
+        <div className="addto">
           <Link
             to={{
               pathname: "/Detail",
@@ -32,12 +34,20 @@ class Phone extends React.Component {
           </Link>
           <h2>{this.props.price}</h2>
           <p>{this.props.description}</p>
-          <button type="button" value="Submit">
-            ADD TO CART
-          </button>
-        </div>
+          </div>
+          <div className="button">
+            <button type="button" value="Submit">
+           ADD TO CART
+          </button>  
+          </div>
+         
+      
       </div>
     );
   }
 }
 export default Phone;
+
+
+
+

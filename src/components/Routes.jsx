@@ -6,13 +6,13 @@ import Cart from "./Cart";
 
 class Routes extends Component {
   render() {
-    console.log("qwert--->", this.props);
     return (
       <div>
         <Switch>
           <Route exact path="/" component={Body} />
           <Route path="/Detail" component={Detail} />
           <Route path="/Cart" component={Cart} />
+        
         </Switch>
       </div>
     );

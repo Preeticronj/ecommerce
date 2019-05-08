@@ -3,9 +3,22 @@ const initialState = {
     flag: false,
     cart_arr: [],
     filter_arr: [],
-    result_arr: []
+    result_arr: [],
+    PriceDummy:[]
 
 }
+
+const compare = (a,b) => {
+    if(a.price < b.price){
+     return -1;
+    }
+    if(a.price > b.price){
+    return 1;
+    }
+     return 0
+
+}
+
 export const Counter = (state = initialState, action) => {
     switch (action.type) {
         case actionType.INCREMENT:
@@ -38,7 +51,7 @@ export const Counter = (state = initialState, action) => {
             break;
         case actionType.ADD_TO_CART:
             const data = action.payload;
-            data.count = 1;
+           data.count = 1;
             return {
                 ...state,
                 cart_arr: [...state.cart_arr, data],
@@ -65,7 +78,7 @@ export const Counter = (state = initialState, action) => {
             if (action.payload.length > 0) {
                 dummy = state.result_arr.filter(prod => {
                     for (let i = 0; i < action.payload.length; i++) {
-                        if (prod.brand === action.payload[i]) {
+                        if (prod.Brand === action.payload[i]) {
                          return prod
                         }
                     }
@@ -79,6 +92,19 @@ export const Counter = (state = initialState, action) => {
                 flag: false
             }
             break;
+            case actionType.FILTER_PRICE:
+            if(action.payload==="low to high"){
+           state.PriceDummy=[...state.filter_arr.sort(compare)];
+            } else if(action.payload==="high to low"){
+           state.PriceDummy=[...state.filter_arr.sort(compare)];
+           state.PriceDummy=state.PriceDummy.reverse();
+            }
+            console.log("-->preeti",state.PriceDummy)
+            return {
+                ...state,
+                filter_arr:state.PriceDummy,
+                flag: false
+            } 
         default:
          return state;
     }

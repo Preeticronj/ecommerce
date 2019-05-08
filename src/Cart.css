@@ -1,30 +1,70 @@
-.cart{
-    display:inline;
-    width:400px;
-    padding: 5px;  
-}
-.image1{
-    float:left;
-    margin-left: 150px;
-}
 .shipping{
-    background:black;
-    color:white;
-    margin-left:150px;
-    margin-top:70px;
-    width:900px;
-    height: 60px;
-}
-.button{
-    display:flex;
-}
-.p1{
-    background:grey;
-    color:black;
-    width:900px;
-    height: 60px;
-    margin-bottom: 70px;
-    margin-left:150px;
+    width: 80%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 50px;
+    }
+    
+    .cart{
+    width: 85%;
+    height: 120%;
+    margin-left: 100px;
+    padding-left: 5px;
+    background-color: white;
+    }
+    
+   .second-div{
+    display: flex;
+    }
+    
+    .image1{
+    padding-top: 10px;
+    display: inline;
+    padding-right: 15px;
+    }
+    
+    .delete{
+    float: left;
+    
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    margin-right:40px;
     
 
-}
+    }
+    
+    .PriceVal{
+    width: 95px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    }
+    
+    .counter{
+    float: left;
+    display: flex;
+    padding-left: 60px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    }
+    
+    .desc{
+    padding-top: 10px;
+    padding-right: 10px;
+    }
+    .p1{
+    background-color: lightgray;
+    margin-left: 100px;
+    padding-left: 10px;
+    width: 80%;
+    height: 90%;
+    text-align: right;
+    }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Cart.css";
+import DeleteLogo from "./DeleteLogo/Delete";
 import { connect } from "react-redux";
 import { increment, decrement, deleteItem } from "../Action/index1";
 
@@ -8,12 +9,15 @@ class Cart extends React.Component {
     super(props);
     this.state = { totalPrice: 0 };
   }
+
   componentWillReceiveProps = nextProps => {
     if (nextProps.flags) this.calculateTotal(nextProps);
   };
+
   componentDidMount = () => {
     this.calculateTotal();
   };
+
   calculateTotal = () => {
     let totalPrice = 0;
     this.props.item.forEach(items => {
@@ -36,34 +40,40 @@ class Cart extends React.Component {
         <div className="cart">
           {this.props.item.map(items => {
             return (
-              <div>
+              <div className="second-div">
                 <div className="image1">
                   <img
-                    width="80 px"
+                    width="80px"
                     heigth="90px"
                     src={items.url}
                     alt="phones"
                   />
                 </div>
-                <div>
-                  <h2>{items.name}</h2>
+                <div className="desc">
+                  <h2>{items.Name}</h2>
                   <p>{items.description}</p>
+                  </div>
+                    <div className="PriceVal">
                   <h3>{items.price}x</h3>
-                  <h3>{items.count}</h3>
+                  <h3>{items.count}</h3> 
                 </div>
+                <div className="counter">
                 <button onClick={() => this.props.dispatch(increment(items))}>
                   +
                 </button>
                 <button onClick={() => this.props.dispatch(decrement(items))}>
                   -
                 </button>
+                </div>
+                <div className="delete">
                 <button
                   onClick={() => {
                     this.props.dispatch(deleteItem(items));
                   }}
                 >
-                  Delete
+                  <DeleteLogo/>
                 </button>
+                </div>
               </div>
             );
           })}
@@ -82,6 +92,7 @@ class Cart extends React.Component {
     );
   }
 }
+
 function mapStateToProps(state) {
   return {
     item: state.cart_arr,

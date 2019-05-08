@@ -26,16 +26,24 @@ export const deleteItem = item => {
   };
 };
 
-export const filterItem = data => {
+export const filterItem = (data) => {
   return {
     type: actionType.FILTER_ITEM,
     payload: data
   };
 };
 
-export const filterProduct = array => {
+export const filterProduct = (array) => {
   return {
     type: actionType.FILTER_PRODUCTS,
     payload: array
+  };
+};
+
+export const filterPrice=(array1)=>{
+  return{
+    type: actionType.FILTER_PRICE,
+    payload: array1
+
   };
 };

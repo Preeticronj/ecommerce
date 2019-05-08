@@ -9,10 +9,11 @@ export class Brand extends React.Component {
     super();
     this.state = {
       name: " ",
-      arr: ["Apple", "Huwaei", "Meizu", "Samsung", "Vestel", "Xioami", "Asus"],
+      arr: ["Apple", "Huawei", "Meizu", "Samsung", "Vestel", "Xiaomi", "Asus"],
       result: []
     };
   }
+  
   handleCheck = (event, name) => {
     const tempName = name;
     let filarr;
@@ -51,7 +52,7 @@ export class Brand extends React.Component {
     );
   }
 }
-function mapStateToProps(state) {
+const mapStateToProps = (state) => {
   return {
     resultant_arr: state.result_arr
   };

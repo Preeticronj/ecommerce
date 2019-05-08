@@ -10,6 +10,7 @@ class Detail extends React.Component {
       arr: []
     };
   }
+
   render() {
     console.log(this.props, "details js");
     return (
@@ -40,21 +41,23 @@ class Detail extends React.Component {
           {this.props.location.state.id}
           <br />
           <div />
+          <div className="addcart">
           <button onClick={() => this.props.addCart(this.props.location.state)}>
             ADD To CART
           </button>
+          </div>
         </div>
       </div>
     );
   }
 }
-function mapStateToProps(state) {
+const mapStateToProps=(state) =>{
   return {
     data: state
   };
 }
 
-function mapDispatchToProps(dispatch) {
+const mapDispatchToProps =(dispatch)=> {
   return {
     addCart: item => {
       dispatch(add_to_Cart(item));

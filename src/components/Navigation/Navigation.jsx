@@ -14,9 +14,9 @@ class Navigation extends React.Component {
     return (
       <div className="nav">
         <div className="ecomm">
-          <p>Ecommerce</p>
+          <p><Link to="/"> Ecommerce</Link></p>
         </div>
-        <nav style={{ display: "flex", justifyContent: "flex-end" }}>
+        <div className="cart1">
           <Link
             to={{
               pathname: "/Cart",
@@ -34,14 +34,14 @@ class Navigation extends React.Component {
               cart(<span>{this.props.count}</span>)
             </p>
           </Link>
-        </nav>
+          </div>
         <Logo />
       </div>
     );
   }
 }
 
-function mapStateToProps(state) {
+const mapStateToProps=(state)=> {
   return {
     count: state.cart_arr.length
   };

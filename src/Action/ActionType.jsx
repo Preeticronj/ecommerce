@@ -4,3 +4,4 @@ export const ADD_TO_CART='ADD_TO_CART';
 export const DELETE_ITEM='DELETE_ITEM';
 export const FILTER_ITEM='FILTER_ITEM';
 export const FILTER_PRODUCTS='FILTER_PRODUCTS';
+export const FILTER_PRICE='FILTER_PRICE';
